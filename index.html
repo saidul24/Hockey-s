@@ -36,6 +36,7 @@
 </head>
 
 <body class="font-manrope">
+    <!-- Header section starts here -->
     <header class="container mx-auto py-10">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -71,7 +72,55 @@
                 <a class="btn bg-common text-white"><i class="fa-solid fa-magnifying-glass"></i> Get Ticket</a>
             </div>
         </div>
+
+        <div class="my-9 mx-4">
+            <!-- slider container -->
+            <div class="carousel w-full">
+                <!-- fast slider -->
+                <div id="slide1" class="carousel-item relative w-full  h-56 lg:h-[550px]">
+                    <img src="Images/1.png" class="w-full object-cover rounded-xl" />
+                    <div class="absolute flex left-4 lg:left-10 bottom-7 space-x-2">
+                        <a href="#slide4" class="btn btn-circle bg-[#131318] text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                    </div>
+                </div>
+                <!-- second -->
+                <div id="slide2" class="carousel-item relative w-full h-56 lg:h-[550px]">
+                    <img src="Images/2.png" class="w-full object-cover rounded-xl" />
+                    <div class="absolute flex left-4 lg:left-10 bottom-7 space-x-2">
+                        <a href="#slide1" class="btn btn-circle bg-[#131318] text-white">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                    </div>
+                </div>
+                <!-- third slider -->
+                <div id="slide3" class="carousel-item relative w-full h-56 lg:h-[550px]">
+                    <img src="Images/3.png" class="w-full object-cover rounded-xl" />
+                    <div class="absolute flex left-4 lg:left-10 bottom-7 space-x-2">
+                        <a href="#slide2" class="btn btn-circle bg-[#131318] text-white">❮</a>
+                        <a href="#slide4" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                    </div>
+                </div>
+                <!-- fourth slider -->
+                <div id="slide4" class="carousel-item relative w-full h-56 lg:h-[550px]">
+                    <img src="Images/4.png" class="w-full object-cover rounded-xl" />
+                    <div class="absolute flex left-4 lg:left-10 bottom-7 space-x-2">
+                        <a href="#slide3" class="btn btn-circle bg-[#131318] text-white">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col items-end relative">
+                <div class="bg-black p-5 space-y-2 rounded-xl mt-4 lg:absolute lg:transform lg:-translate-y-48 lg:right-5 lg:w-[566px] ">
+                    <h3 class="text-lg text-white font-extrabold">Meet all the heroes from the field</h3>
+                    <p class="text-[#AFAFAF]">Elite hockey club showcasing top talent, fierce competition, and thrilling matches, embodying sportsmanship, skill, and the spirit of teamwork.</p>
+                </div>
+
+            </div>
+
+        </div>
     </header>
+    <!-- header section end here -->
     <main>
     </main>
     <footer>
@@ -81,3 +130,6 @@
 </body>
 
 </html>
+
+
+
